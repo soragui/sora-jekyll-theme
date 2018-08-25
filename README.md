@@ -24,7 +24,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install sora-elegent-theme
+    $ gem install sora-elegant-theme
 
 ## Usage
 
@@ -40,7 +40,32 @@ plugins:
 paginate: 20
 ```
 
-There must be a index.html file on the root directory.
+There must be a index.html file on the root directory:
+```html
+---
+layout: home
+---
+```
+
+If you want to add a search page,first add the following line in `_config.yml`:
+```yml
+theme_settings:
+  special_page:
+    search:
+      enabled: true
+
+navigation:
+  - title: Home
+    url: /index.html
+  - title: Search
+    url: /search
+```
+then add a `search.html` page at root dic:
+```
+---
+layout: search
+---
+```
 
 ## Contributing
 
