@@ -29,7 +29,7 @@ Or install it yourself as:
 ## Usage
  
 
-And add this line to your Jekyll site's `_config.yml`:
+Add this line to your Jekyll site's `_config.yml`:
 ```yaml
 plugins:
     - jekyll-paginate

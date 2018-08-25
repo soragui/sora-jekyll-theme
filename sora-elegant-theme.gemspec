@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "sora-elegant-theme"
-  spec.version       = "0.1.2"
+  spec.version       = "0.1.3"
   spec.authors       = ["soragui"]
   spec.email         = ["ziwo520@gmail.com"]
 
