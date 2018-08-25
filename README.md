@@ -27,11 +27,7 @@ Or install it yourself as:
     $ gem install sora-elegant-theme
 
 ## Usage
-
-Add paginate Gem to your `Gemfile`:
-```Ruby
-gem "jekyll-paginate"
-```
+ 
 
 And add this line to your Jekyll site's `_config.yml`:
 ```yaml
