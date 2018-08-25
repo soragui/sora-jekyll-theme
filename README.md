@@ -28,6 +28,8 @@ Or install it yourself as:
 
 ## Usage
 
+First add the missing _sass folder file to you _sass folder
+
 Add paginate Gem to your `Gemfile`:
 ```Ruby
 gem "jekyll-paginate"
