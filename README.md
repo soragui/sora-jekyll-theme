@@ -2,20 +2,20 @@
 
 A simple and elegant Jekyll Theme for everyone😊. 
 
-This theme is based on ... I forget. Just remember I am not a web developer and I create this theme just for learning some CSS and JS... So if you find anything wrong ... Feel free to PR😛
+This theme is based on [Long-Haul](https://github.com/brianmaierjr/long-haul). Just remember I am not a web developer and I create this theme just for learning some CSS and JS... So if you find anything wrong ... Feel free to PR😛
 
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "sora-elegent-theme"
+gem "sora-elegant-theme"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
-theme: sora-elegent-theme
+theme: sora-elegant-theme
 ```
 
 And then execute:
@@ -28,11 +28,23 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+Add paginate Gem to your `Gemfile`:
+```Ruby
+gem "jekyll-paginate"
+```
+
+And add this line to your Jekyll site's `_config.yml`:
+```yaml
+plugins:
+    - jekyll-paginate
+paginate: 20
+```
+
+There must be a index.html file on the root directory.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/soragui/sora-jekyll-theme/issues. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Development
 

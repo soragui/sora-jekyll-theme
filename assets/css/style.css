@@ -19,7 +19,8 @@ section {
 
 h1 {
     font-size: 2em;
-    margin: .67em 0
+    margin: 0 auto;
+    text-align: center
 }
 
 figcaption,
@@ -810,33 +811,31 @@ dd {
 }
 
 .header {
-    background-color: #2092df; 
-    background-size: cover;
-    background-position: 50%;
-    color: #fff;
-    padding: 0;
-    height: 3em
+    background-color: #2092df;   
 }
 
 .header .container {
     padding: 0;
-    max-width: 100%
+    max-width: 100%;
+    text-align: center
 }
 
 .header h1 {
-    margin: 0;
+    margin: 0 auto;
     float: left;
     padding-left: 2rem;
     font-size: 1em;
     line-height: 3em;
     font-family: Open Sans, Helvetica, Arial, sans-serif;
     font-weight: 800;
-    text-transform: uppercase
+    text-transform: uppercase;
+    text-align: center
 }
 
 .header h1 a {
     color: #d0d0d0;
-    text-decoration: none
+    text-decoration: none;
+    text-align: center
 }
 
 .post .postTitle {
@@ -1128,7 +1127,8 @@ dd {
     .header {
         height: 15em;
         position: relative;
-        padding-bottom: 2em
+        padding-bottom: 2em;
+        margin: 0% auto
     }
     .header .container {
         position: relative;
@@ -1142,7 +1142,9 @@ dd {
         font-size: 3em;
         line-height: 1;
         letter-spacing: -3px;
-        padding-left: 0
+        padding-left: 0;
+        margin: 0% auto;
+        text-align: center
     }
     .header nav {
         float: left;
