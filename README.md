@@ -26,43 +26,6 @@ Or install it yourself as:
 
     $ gem install sora-elegant-theme
 
-## Usage
- 
-
-Add this line to your Jekyll site's `_config.yml`:
-```yaml
-plugins:
-    - jekyll-paginate
-paginate: 20
-```
-
-There must be a index.html file on the root directory:
-```html
----
-layout: home
----
-```
-
-If you want to add a search page,first add the following line in `_config.yml`:
-```yml
-theme_settings:
-  special_page:
-    search:
-      enabled: true
-
-navigation:
-  - title: Home
-    url: /index.html
-  - title: Search
-    url: /search
-```
-then add a `search.html` page at root dic:
-```
----
-layout: search
----
-```
-
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/soragui/sora-jekyll-theme/issues. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
